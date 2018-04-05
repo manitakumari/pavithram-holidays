@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Raleway');
+.navbar {
+    color: #fff;
+    background-color: #0e1627;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-brand {
+	font-family: 'Courgette', cursive;
+}
+body {
+	/*background-color: red;*/
+	background-color: #323a4b;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.p1 {
+	color: red;
+}
+.div1 {
+	background-color: #ee513d;
+	color: #fff;
+	min-height: 95vh;
+	/*padding-bottom: 35px;*/
+}
+.div1 h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 50px;
+}
+.div1 p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;	
+}
+.div1 img {
+	/*width: 500px;*/
+	/*height: auto;*/
+}
+.div1 button {
+	background-color: #0e1627;
+	padding: 7px 25px;
+	border-radius: 6px;
+	border: 0;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.slide .slide-move {
+	overflow: hidden;
+}
+.slide .slide-move img {
+	margin-top: 19px;
+}
+.cloud {
+	position: absolute;
+	bottom: 
+}
+
+/*div2*/
+
+.circle {
+	 background-color: #ffcc19;
+ 	border-radius: 50%;
+ 	/*border: 1x solid grey;*/
+ 	padding:20px;
+ 	width: 150px;
+ 	height: 150px;
+ 	/*float: right;*/
+ 	text-align: center;
+}
+.circle i {
+	position: absolute;
+	font-size:55px;
+	top: 40px;
+	left: 60px;
+}
+.services {
+	margin-top: 20px;
+}
+.services p{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.marketing button{
+	border-radius: 0;
+	padding: 7px 32px;
+}
+.marketing .btns {
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+.btn-rv {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #fff;
+	width:155px;
+	border: solid 2px #fff;
+	padding: 7px 35px;
+	background: transparent;
+}
+.btn-rv:hover {
+	color: #fff;
+	background-color: #1b222f;
+}
+
+.comment .fa-angle-left{
+	position: absolute;
+	font-size: 70px;
+	margin-top: 18px;
+	left: 10px;
+	font-weight: 700;
+	color: #191b1f;
+}
+.comment .fa-angle-right{
+	position: absolute;
+	font-size: 70px;
+	right: 10px;
+	/*top: 0px;*/
+	margin-top: 18px;
+	font-weight: 700;
+	color: #191b1f;
+}
+.comment .fa-angle-right:hover, .comment .fa-angle-left:hover {
+	color: #000;
+	cursor: pointer;
+}
+img.img-circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+
+.footer {
+	background-color: #ee513d;
+	padding: 30px;
+}
+i.fa-circle {
+	color: #1f1f1f;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle {
+ 	padding:20px;
+ 	width: 50px;
+ 	height: 50px;
+
+}
+.circle i {
+	font-size:25px;
+	top: 18px;
+	left: 28px;
+}
+.services p{
+	font-size: 14px;
+}
+.div1 h1 {
+	font-size: 30px;
+}
+.div1 p {
+	font-size: 15px;	
+}
+.div1 button {
+	padding: 4px 5px;
+	border-radius: 6px;
+	border: 0;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 350px) {
+    .circle {
+ 	padding:20px;
+ 	width: 40px;
+ 	height: 40px;
+
+}
+.circle i {
+	font-size:20px;
+	top: 11px;
+	left: 24px;
+}
+.services p{
+	font-size: 8px;
+}
+.div1 button {
+	padding: 4px 5px;
+	border-radius: 6px;
+	border: 0;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+}
